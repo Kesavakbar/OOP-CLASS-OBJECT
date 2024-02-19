@@ -1,0 +1,16 @@
+class Hewan:
+    def __init__(self, jenis, jumlah_kaki):
+        self.jenis = jenis
+        self.jumlah_kaki = jumlah_kaki
+
+    def display(self):
+        print("ini adalah", self.jenis, " yang memiliki kaki", str(self.jumlah_kaki))
+
+hewan1 = Hewan("kucing", 4)
+hewan2 = Hewan("kura kura", 4)
+hewan3 = Hewan("angsa", 2)
+
+hewan1.display()
+hewan2.display()
+hewan3.display()
+    
