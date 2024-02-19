@@ -1,0 +1,15 @@
+class Manusia:
+    def __init__ (self, nama, umur):
+        self.nama = nama
+        self.umur = umur
+
+    def informasi(self):
+        print("Nama:", self.nama)
+        print("Umur:", str(self.umur), "tahun")
+
+def main():
+    Manusia1 = Manusia(input("masukkan nama: "), input("masukkan umur: "))
+    Manusia1.informasi()
+
+if __name__ == "__main__":
+    main()
