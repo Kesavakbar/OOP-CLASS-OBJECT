@@ -1,0 +1,27 @@
+class Persegi:
+    def __init__(self, s):
+        self.s = s
+
+    def hitung_luas(self):
+        luas = self.s ** 2
+        return luas
+    
+    def hitung_keliling(self):
+        keliling = 4 * self.s
+        return keliling
+
+def main():
+    sisi_persegi = float(input("masukkan sisi yang ingin anda ukur :"))
+
+    persegi = Persegi(sisi_persegi)
+
+    luas = persegi.hitung_luas()
+    print("hitung luas", luas)
+
+    keliling = persegi.hitung_keliling()
+    print("hitung keliling", keliling)
+
+if __name__ == "__main__" :
+    main()
+
+
